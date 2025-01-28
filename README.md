@@ -1,4 +1,12 @@
-# Intro to plotting in ggplot
+# Plotting distributions with ggplot
+
+## Learning Objectives
+
+- [ ] Know how to make a plot in `ggplot` that plots a single variable in a DataFrame (notebooks 1 & 2)
+- [ ] Understand what a distribution is and the various ways to visualize one (notebooks 1 & 2)
+- [ ] Be aware of the pipe (`%>%`) syntax in the tidyverse R package and understand what it does (notebook 3)
+
+## Files
 
 - `notebook-1.ipynb` - plotting poverty rates of zipcodes in NYC as univariate distributions in ggplot
 - `notebook-2.ipynb` - plotting poverty rates of zipcodes in NYC by borough
@@ -15,5 +23,6 @@ brew install r
 brew install libgit2
 RScript setup.R
 pip3 install -r requirements.txt
-jupyter notebook notebook-1.ipynb
 ```
+
+Launch the notebook in jupyter like this `jupyter notebook notebook-1.ipynb` or in VSCode with `code .`
