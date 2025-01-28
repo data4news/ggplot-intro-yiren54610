@@ -15,5 +15,5 @@ brew install r
 brew install libgit2
 RScript setup.R
 pip3 install -r requirements.txt
-jupyter notebook notebook.ipynb
+jupyter notebook notebook-1.ipynb
 ```
